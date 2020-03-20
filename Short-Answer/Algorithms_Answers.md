@@ -21,7 +21,7 @@ Check to see if egg breaks when dropped from the middle floor. If it does break,
 
 If the egg does not break, move into the upper half, drop the lower half, and set a a new middle point in the upper half. Repeat the process to see if the egg breaks. 
 
-I think this is a decent solution if the there are a lot of floors. If the building only ad very few floors, iterative search is probably better. 
+I think this is a decent solution if the there are a lot of floors. If the building only has a few floors, iterative search is probably better. 
 
 binary search runtime: O(log(n))
 
